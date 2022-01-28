@@ -198,7 +198,7 @@ a:hover {
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel button:hover {
@@ -229,7 +229,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0);
 }
 
 .d-bloc .panel button:hover,
@@ -618,7 +618,7 @@ a[data-lightbox]:hover img {
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
-    background: rgba(0, 0, 0, .5);
+    background: rgb(0,0,0);
     position: absolute;
     left: 15px;
     right: 15px;
@@ -632,7 +632,7 @@ a[data-lightbox]:hover img {
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: rgb(0,0,0);
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
@@ -674,7 +674,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0,0,0);
     background: none;
 }
 
@@ -809,7 +809,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #D97C5F!important;
+    background-color: #C0573A!important;
 }
 
 .tc-white {
@@ -817,12 +817,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #D97C5F!important;
+    background: #C0573A!important;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #D97C5F!important;
+    background: #C0573A!important;
     color: #FFFFFF!important;
 }
 
@@ -835,11 +835,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #C0573A!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color:#C0573A!important;
 }
 
 .icon-dark-slate-blue {
