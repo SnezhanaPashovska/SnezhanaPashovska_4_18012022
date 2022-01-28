@@ -25,6 +25,20 @@ iframe{
     margin: 0px 0px 0px 100px;
 }
 
+.slogan{
+    height: 60px;
+    font-size: 20px;
+    color: black;
+    margin: 20px 0px 20px 0px;
+}
+
+.review{
+    height: 120px;
+    font-size: 20px;
+    color: black;
+    width: 110%;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
