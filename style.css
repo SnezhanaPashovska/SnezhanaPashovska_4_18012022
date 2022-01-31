@@ -58,6 +58,45 @@ iframe{
     text-align: center;
 }
 
+.text-icons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 240px;
+    margin-top: 5px;
+}
+
+.headline-text-center{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text-center_1{
+    color: black;
+    text-align: center;
+    width: 92%;
+    font-size: 12px;
+    padding: 0px auto 0px auto;
+    margin: 0 auto 0 auto;
+}
+
+
+.slogan-end h3{
+    color: white !important;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.col-sm-4_1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 
 a,
 button {
@@ -502,11 +541,6 @@ nav .caret {
     margin-bottom: 20px;
 }
 
-.slogan-end h2{
-    color: white;
-    text-align: center;
-    font-size: 14px;
-}
 
 .mg-lg {
     margin-top: 10px;
