@@ -561,46 +561,7 @@ a:hover {
 
 /* Responsive __________________________________________________________________________________________________________________*/
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
+
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -877,7 +838,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    width: 100%;
     margin: auto auto auto auto;
     color: white !important;
 }
@@ -951,8 +912,19 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(137, 116, 76);
     padding: 40px 40px 40px 40px;
+    width: 50%;
+    
+}
+
+.black-background h2{
+    font-size: 16px;
+}
+
+
+.black-background p{
+    font-size: 14px;
 }
 
 .bold-link {
@@ -1039,7 +1011,7 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 100%
     }
     .nav-center.navbar .nav {
         max-width: 100%
@@ -1227,7 +1199,7 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 766px) {
     .bloc {
         margin: 0;
         padding: 0;
@@ -1239,20 +1211,21 @@ h4 {
     
     .navbar-brand img {
         max-height: 200px;
-        margin: 0px 0px 0px -48px;
+        margin: 0px 0px 0px 0px;
         display: flex;
         object-fit: cover;
         align-self: center;
     }
 
     .navbar-toggle{
-        margin: 0px -45px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 
     .collapse.in{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        width: 100%;
     }
 
     .navbar .nav{
@@ -1275,19 +1248,35 @@ h4 {
         margin-bottom: 20px;
     }
 
+    .container {
+        max-width: 100%;
+    }
+
     .slogan{
         height: 120px;
-        margin:0px 0px 50px -70px;
-        width: 190%;
+        margin:0px 0px 50px 0px;
+        width: 100%;
         font-size: 16px;
     }
 
     .text-icons{
         height: 810px;
-        width: 190%;
-        margin:0px 0px 30px -70px;
+        width: 100%;
+        margin:0px 0px 30px auto;
         display: flex;
         flex-direction: column;
+    }
+
+    .central-text{
+        width: 100% !important;
+        margin: 0px auto 0px auto !important;
+        padding: 0;
+    }
+
+    .central-text p{
+        width: 100%;
+        margin: 0px auto 0px auto;
+        padding: 0;
     }
 
     .headline-text-center{
@@ -1303,15 +1292,15 @@ h4 {
     }
 
     .review{
-        width: 180%;
-        margin:0px 0px 10px -70px;
+        width: 100%;
+        margin:0px 0px 10px 0;
         height: 160px;
         font-size: 16px;
     }
 
     .reviewer{
-        width: 180%;
-        margin:0px 0px 10px -70px;
+        width: 100%;
+        margin:0px 0px 10px 0px;
     }
 
 
@@ -1330,14 +1319,33 @@ h4 {
     }
 
     .portfolio-row{
-        width: 160%;
-        margin: 10px 0px 10px -50px;
+        width: 100%;
+        margin: 10px auto 10px auto;
+    }
+
+    .portfolio-row img{
+        object-fit: cover;
+        width: 100%;
     }
 
     .black-background{
-        width: 180%;
-        margin:-25px 0px 0px -65px;
+        width: 100%;
+        margin:-25px auto 0px auto;
         height: 320px;
+        padding: 0;
+    }
+
+    .black-background h2{
+        width: 100%;
+        margin:20px auto 10px auto;
+        padding: 0;
+        font-size: 14px;
+    }
+    .black-background p{
+        width: 100%;
+        margin:0 auto 0px auto;
+        padding: 0;
+        font-size: 12px;
     }
 
     .central-text{
@@ -1351,13 +1359,13 @@ h4 {
     }
 
     .slogan-end{
-        width: 180%;
-        margin:0px 0px 0px -70px;
+        width: 100%;
+        margin:0px auto 0px auto;
     }
 
     .white{
-        width: 170%;
-        margin: 10px 0px 0px -60px;
+        width: 100%;
+        margin: 10px auto 0px auto;
     }
 
     .social{
@@ -1369,4 +1377,94 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1483px){
+
+    .navbar-brand img {
+        max-height: 200px;
+        margin: 0 5px 0 -150px;
+        display: inline;
+    }
+
+    .slogan{
+        height: 30%;
+        margin:0px 0px 50px 0px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .text-icons{
+        height: 50%;
+        width: 100% !important;
+        margin:0px 0px 30px auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .central-text{
+        width: 100% !important;
+        margin: 0px auto 0px auto !important;
+        padding: 0;
+    }
+
+    .central-text p{
+        width: 100%;
+        margin: 0px auto 0px auto;
+        padding: 0;
+    }
+
+    .review{
+        width: 100% !important;
+        margin:0px 0px 10px 0;
+        height: 40%;
+        font-size: 16px;
+    }
+
+    .reviewer{
+        width: 100%;
+        margin:0px 0px 10px 0px;
+    }
+
+
+    .black-background{
+        width: 80%;
+        margin:-25px auto 0px auto !important;
+        height: 130%;
+        padding: 0;
+    }
+
+    .black-background h2{
+        width: 100%;
+        margin:20px auto 10px auto;
+        padding: 0;
+        
+    }
+    .black-background p{
+        width: 100%;
+        margin:0 auto 0px auto;
+        padding: 0;
+    }
+
+    .container{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 2560px) {
+
+    .bloc {
+        margin: 0px 500px 0px 0px;
+        padding: 0;
+        list-style: none;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    .portfolio-row img{
+        object-fit: cover;
+        width: 100%;
+    }
+    
 }
