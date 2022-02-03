@@ -186,6 +186,7 @@ iframe{
     width: 90%;
 }
 
+
 #message{
     margin: 7px 0px 0px 0px;
     font-family: helvetica, sans-serif;
@@ -323,7 +324,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper-min.png");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -1021,19 +1022,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg-min.png");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg-min.png");
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere-min1.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation_11zon.jpg");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1631,7 +1632,7 @@ h4 {
     }
 
     .btn-atomic-tangerine{
-        width: 30%;
+        width: 40%;
     }
         
 }
